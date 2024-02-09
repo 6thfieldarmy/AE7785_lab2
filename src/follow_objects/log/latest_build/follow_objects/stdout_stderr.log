@@ -1,0 +1,20 @@
+running egg_info
+writing build/follow_objects/follow_objects.egg-info/PKG-INFO
+writing dependency_links to build/follow_objects/follow_objects.egg-info/dependency_links.txt
+writing entry points to build/follow_objects/follow_objects.egg-info/entry_points.txt
+writing requirements to build/follow_objects/follow_objects.egg-info/requires.txt
+writing top-level names to build/follow_objects/follow_objects.egg-info/top_level.txt
+reading manifest file 'build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file 'build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)
+Copying build/follow_objects/follow_objects.egg-info to /home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_node = follow_objects.my_node:mainfind_object2 = follow_objects.find_object2:mainturn_turtlebot script to /home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/follow_objects
+writing list of installed files to '/home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/install.log'

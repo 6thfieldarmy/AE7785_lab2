@@ -1,0 +1,22 @@
+[0.739s] Invoking command in '/home/worren_hu/ros2_ws/src/follow_objects': PYTHONPATH=/home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/prefix_override:/home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/follow_objects build --build-base /home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/build install --record /home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/install.log --single-version-externally-managed
+[0.962s] running egg_info
+[0.963s] writing build/follow_objects/follow_objects.egg-info/PKG-INFO
+[0.964s] writing dependency_links to build/follow_objects/follow_objects.egg-info/dependency_links.txt
+[0.964s] writing entry points to build/follow_objects/follow_objects.egg-info/entry_points.txt
+[0.964s] writing requirements to build/follow_objects/follow_objects.egg-info/requires.txt
+[0.965s] writing top-level names to build/follow_objects/follow_objects.egg-info/top_level.txt
+[0.966s] reading manifest file 'build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[0.966s] adding license file 'LICENSE'
+[0.967s] writing manifest file 'build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[0.967s] running build
+[0.968s] running build_py
+[0.968s] running install
+[0.968s] running install_lib
+[0.969s] running install_data
+[0.970s] running install_egg_info
+[0.971s] removing '/home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)
+[0.972s] Copying build/follow_objects/follow_objects.egg-info to /home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+[0.973s] running install_scripts
+[0.992s] Installing my_node = follow_objects.my_node:mainfind_object2 = follow_objects.find_object2:mainturn_turtlebot script to /home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/follow_objects
+[0.992s] writing list of installed files to '/home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/install.log'
+[1.018s] Invoked command in '/home/worren_hu/ros2_ws/src/follow_objects' returned '0': PYTHONPATH=/home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/prefix_override:/home/worren_hu/ros2_ws/src/follow_objects/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/follow_objects build --build-base /home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/build install --record /home/worren_hu/ros2_ws/src/follow_objects/build/follow_objects/install.log --single-version-externally-managed
