@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'follow_objects'
+package_name = 'py_pubsub'
 
 setup(
     name=package_name,
@@ -13,16 +13,16 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='worren',
+    maintainer='burger',
     maintainer_email='2423482852@qq.com',
-    description='enable turtlebot3 to rotate following a targeted ball',
+    description='TODO: Package description',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = follow_objects.my_node:main',
-            'find_object2 = follow_objects.find_object2:main',
-            'turn_turtlebot = follow_objects.turn_turtlebot:main',
+            'my_node = follow_objects.my_node:main'
+            'find_object2 = follow_objects.find_object2:main'
+            'turn_turtlebot = follow_objects.turn_turtlebot:main'
         ],
     },
 )

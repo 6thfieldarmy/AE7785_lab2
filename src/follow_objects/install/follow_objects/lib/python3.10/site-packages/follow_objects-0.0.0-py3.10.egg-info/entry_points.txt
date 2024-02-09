@@ -1,3 +1,0 @@
-[console_scripts]
-my_node = follow_objects.my_node:mainfind_object2 = follow_objects.find_object2:mainturn_turtlebot = follow_objects.turn_turtlebot:main
-

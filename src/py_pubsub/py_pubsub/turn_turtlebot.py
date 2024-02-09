@@ -20,30 +20,30 @@ class turn_turtlebot_node(Node):
                 self.turn_dir_callback,
 				10)
         self.publisher_2 = self.create_publisher(Twist, '/cmd_vel', 5)
+        self.rot = Twist()
+        self.publisher_2.publish(self.rot)
         
     def turn_dir_callback(self, turn_dir_msg):
-            self.rot = Twist()
             if turn_dir_msg.data == 0:
                 self.get_logger().info('Turning left cmd copied')
                 print("Turning left")
-                self.rot.angular.z = 0.3
-                self.publisher_2.publish(self.rot)
+                self.rot.angular.z = -1
             elif turn_dir_msg.data == 1:
                 self.get_logger().info('Turning right cmd copied')
                 print("Turning right")
-                self.rot.angular.z = -0.3
-                self.publisher_2.publish(self.rot)
+                self.rot.angular.z = 1
             else:
-                self.rot.angular.z = 0.0
-                self.publisher_2.publish(self.rot)
+                self.get_logger().info('find object direction subscriber failed.')
+                print("subscription failed")
 
     
 def main():
 	rclpy.init() #init routine needed for ROS2.
 	turn_cmd = turn_turtlebot_node() #Create class object to be used.
-   #print("turn_turtlebot_node running")
+    #print("turn_turtlebot_node running")
 
-	rclpy.spin(turn_cmd) # Trigger callback processing.
+	while rclpy.ok():
+		rclpy.spin_once(turn_cmd) # Trigger callback processing.
 		
 
 	#Clean up and shutdown.
