@@ -60,14 +60,32 @@ class find_object_node(Node):
                 i = sorted_circles[0]
                 cv2.circle(frame,(i[0],i[1]),i[2],(0,0,255),2)
                 cv2.circle(frame,(i[0],i[1]),2,(0,0,255),3)
-                if i[0] > 350 : #turn right
+                if i[0] > 350 and i[0] < 420 : #turn right
                     cv2.circle(frame, (575, 25), 20, (255,0,0), 21)
                     self._turn_direction = 1 #1 for right, 0 for left
-                    print("to the right")
-                elif i[0] < 290 :
+                    print("to the right 1st")
+                elif i[0] >= 420 and i[0] < 490 :
+                    cv2.circle(frame, (25, 25), 20, (255,0,0), 21)
+                    self._turn_direction = 10 #1 for right, 0 for left
+                    print("to the left 2nd")
+                elif i[0] >= 490 :
+                    cv2.circle(frame, (25, 25), 20, (255,0,0), 21)
+                    self._turn_direction = 11 #1 for right, 0 for left
+                    print("to the left 3rd")
+                
+                elif i[0] < 290 and i[0] >= 220 :
                     cv2.circle(frame, (25, 25), 20, (255,0,0), 21)
                     self._turn_direction = 0 #1 for right, 0 for left
-                    print("to the left")
+                    print("to the left 1st")
+                elif i[0] < 220 and i[0] >= 150 :
+                    cv2.circle(frame, (25, 25), 20, (255,0,0), 21)
+                    self._turn_direction = 4 #1 for right, 0 for left
+                    print("to the left 2nd")
+                elif i[0] < 150 :
+                    cv2.circle(frame, (25, 25), 20, (255,0,0), 21)
+                    self._turn_direction = 5 #1 for right, 0 for left
+                    print("to the left 3rd")
+
                 else:
                     self._turn_direction = 2
                     print("no need to move")

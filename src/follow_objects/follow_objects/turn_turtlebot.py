@@ -26,13 +26,34 @@ class turn_turtlebot_node(Node):
             if turn_dir_msg.data == 0:
                 self.get_logger().info('Turning left cmd copied')
                 print("Turning left")
-                self.rot.angular.z = 0.3
+                self.rot.angular.z = 0.15
                 self.publisher_2.publish(self.rot)
             elif turn_dir_msg.data == 1:
                 self.get_logger().info('Turning right cmd copied')
                 print("Turning right")
+                self.rot.angular.z = -0.15
+                self.publisher_2.publish(self.rot)
+            elif turn_dir_msg.data == 10:
+                self.get_logger().info('Turning right cmd copied')
+                print("Turning right")
                 self.rot.angular.z = -0.3
                 self.publisher_2.publish(self.rot)
+            elif turn_dir_msg.data == 11:
+                self.get_logger().info('Turning right cmd copied')
+                print("Turning right")
+                self.rot.angular.z = -0.45
+                self.publisher_2.publish(self.rot)
+            elif turn_dir_msg.data == 4:
+                self.get_logger().info('Turning right cmd copied')
+                print("Turning right")
+                self.rot.angular.z = 0.3
+                self.publisher_2.publish(self.rot)
+            elif turn_dir_msg.data == 5:
+                self.get_logger().info('Turning right cmd copied')
+                print("Turning right")
+                self.rot.angular.z = 0.45
+                self.publisher_2.publish(self.rot)
+
             else:
                 self.rot.angular.z = 0.0
                 self.publisher_2.publish(self.rot)
