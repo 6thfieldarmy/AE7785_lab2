@@ -56,7 +56,7 @@ class find_object_node(Node):
             processing = cv2.dilate(processing,None,iterations=3)
 
             gray = cv2.cvtColor(processing, cv2.COLOR_BGR2GRAY)
-            circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 50, param1=60, param2=40, minRadius=30, maxRadius=480)
+            circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 50, param1=60, param2=40, minRadius=50, maxRadius=480)
             if circles is not None:
                 circles = np.uint16(np.around(circles))
                 sorted_circles = sorted(circles[0], key=lambda x:x[2], reverse=True)

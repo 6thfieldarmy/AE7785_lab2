@@ -34,9 +34,9 @@ class turn_turtlebot_node(Node):
             elif turn_dir_msg.data == 100 or turn_dir_msg.data is None:
                 self.motion_cmd.angular.z = 0.0
             elif turn_dir_msg.data > 3 and turn_dir_msg.data < 35:
-                self.motion_cmd.angular.z = -(turn_dir_msg.data - 3)/20*0.5
+                self.motion_cmd.angular.z = -(turn_dir_msg.data - 3)/20*0.75
             elif turn_dir_msg.data < -3 and turn_dir_msg.data > -35:
-                self.motion_cmd.angular.z = -(turn_dir_msg.data + 3)/20*0.5
+                self.motion_cmd.angular.z = -(turn_dir_msg.data + 3)/20*0.75
             else:
                 self.motion_cmd.angular.z = 0.0
 
@@ -81,9 +81,9 @@ class turn_turtlebot_node(Node):
             elif turn_dir_linear_msg.data == 100 or turn_dir_linear_msg.data is None:
                 self.motion_cmd.linear.x = 0.0
             elif turn_dir_linear_msg.data > 0.43 :
-                self.motion_cmd.linear.x = min((turn_dir_linear_msg.data - 0.43)/0.2*0.1,0.1)
+                self.motion_cmd.linear.x = min((turn_dir_linear_msg.data - 0.43)/0.2*0.15,0.15)
             elif turn_dir_linear_msg.data < 0.37 :
-                self.motion_cmd.linear.x = min((turn_dir_linear_msg.data - 0.37)/0.2*0.1,-0.1)
+                self.motion_cmd.linear.x = max((turn_dir_linear_msg.data - 0.37)/0.2*0.15,-0.15)
             else:
                 self.motion_cmd.linear.x = 0.0
 
