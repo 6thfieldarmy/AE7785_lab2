@@ -1,0 +1,14 @@
+running egg_info
+writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+running build
+running build_py
+copying follow_objects/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+running install
+running install_lib
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'

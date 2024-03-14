@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001691] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002341] (follow_objects) JobQueued: {'identifier': 'follow_objects', 'dependencies': OrderedDict()}
+[0.002678] (follow_objects) JobStarted: {'identifier': 'follow_objects'}
+[0.099074] (-) TimerEvent: {}
+[0.200216] (-) TimerEvent: {}
+[0.304481] (-) TimerEvent: {}
+[0.405544] (-) TimerEvent: {}
+[0.506485] (-) TimerEvent: {}
+[0.607265] (-) TimerEvent: {}
+[0.708614] (-) TimerEvent: {}
+[0.809887] (-) TimerEvent: {}
+[0.910627] (-) TimerEvent: {}
+[1.011592] (-) TimerEvent: {}
+[1.112955] (-) TimerEvent: {}
+[1.221391] (-) TimerEvent: {}
+[1.322919] (-) TimerEvent: {}
+[1.424344] (-) TimerEvent: {}
+[1.525974] (-) TimerEvent: {}
+[1.626737] (-) TimerEvent: {}
+[1.727843] (-) TimerEvent: {}
+[1.829014] (-) TimerEvent: {}
+[1.930115] (-) TimerEvent: {}
+[2.032014] (-) TimerEvent: {}
+[2.133496] (-) TimerEvent: {}
+[2.235014] (-) TimerEvent: {}
+[2.336489] (-) TimerEvent: {}
+[2.438306] (-) TimerEvent: {}
+[2.539334] (-) TimerEvent: {}
+[2.640120] (-) TimerEvent: {}
+[2.741567] (-) TimerEvent: {}
+[2.843014] (-) TimerEvent: {}
+[2.947227] (-) TimerEvent: {}
+[3.048381] (-) TimerEvent: {}
+[3.149372] (-) TimerEvent: {}
+[3.250458] (-) TimerEvent: {}
+[3.351830] (-) TimerEvent: {}
+[3.452835] (-) TimerEvent: {}
+[3.554156] (-) TimerEvent: {}
+[3.655457] (-) TimerEvent: {}
+[3.756642] (-) TimerEvent: {}
+[3.857358] (-) TimerEvent: {}
+[3.958685] (-) TimerEvent: {}
+[4.061955] (-) TimerEvent: {}
+[4.085456] (follow_objects) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/follow_objects', 'build', '--build-base', '/home/burger/worren_hu_ws/build/follow_objects/build', 'install', '--record', '/home/burger/worren_hu_ws/build/follow_objects/install.log', '--single-version-externally-managed'], 'cwd': '/home/burger/worren_hu_ws/src/follow_objects', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'burger', 'SSH_CLIENT': '192.168.0.33 50753 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/burger', 'OLDPWD': '/home/burger', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/burger/dontTouch_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'burger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/burger/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '57', 'AMENT_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/burger/worren_hu_ws/build/follow_objects', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.33 50753 192.168.0.43 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver'}, 'shell': False}
+[4.162100] (-) TimerEvent: {}
+[4.262840] (-) TimerEvent: {}
+[4.363902] (-) TimerEvent: {}
+[4.465038] (-) TimerEvent: {}
+[4.569483] (-) TimerEvent: {}
+[4.671249] (-) TimerEvent: {}
+[4.771929] (-) TimerEvent: {}
+[4.874046] (-) TimerEvent: {}
+[4.974866] (-) TimerEvent: {}
+[5.076166] (-) TimerEvent: {}
+[5.177021] (-) TimerEvent: {}
+[5.278423] (-) TimerEvent: {}
+[5.387068] (-) TimerEvent: {}
+[5.388665] (follow_objects) StdoutLine: {'line': b'running egg_info\n'}
+[5.410873] (follow_objects) StdoutLine: {'line': b"writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'\n"}
+[5.412217] (follow_objects) StdoutLine: {'line': b'running build\n'}
+[5.412992] (follow_objects) StdoutLine: {'line': b'running build_py\n'}
+[5.414769] (follow_objects) StdoutLine: {'line': b'copying follow_objects/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects\n'}
+[5.417972] (follow_objects) StdoutLine: {'line': b'running install\n'}
+[5.421713] (follow_objects) StdoutLine: {'line': b'running install_lib\n'}
+[5.429376] (follow_objects) StdoutLine: {'line': b'byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc\n'}
+[5.433078] (follow_objects) StdoutLine: {'line': b'running install_data\n'}
+[5.435796] (follow_objects) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.443049] (follow_objects) StdoutLine: {'line': b"removing '/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.444841] (follow_objects) StdoutLine: {'line': b'Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info\n'}
+[5.451164] (follow_objects) StdoutLine: {'line': b'running install_scripts\n'}
+[5.487236] (-) TimerEvent: {}
+[5.536292] (follow_objects) StdoutLine: {'line': b"writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'\n"}
+[5.587591] (-) TimerEvent: {}
+[5.688371] (follow_objects) CommandEnded: {'returncode': 0}
+[5.689983] (-) TimerEvent: {}
+[5.790920] (-) TimerEvent: {}
+[5.892732] (-) TimerEvent: {}
+[5.993899] (-) TimerEvent: {}
+[6.008960] (follow_objects) JobEnded: {'identifier': 'follow_objects', 'rc': 0}
+[6.011933] (-) EventReactorShutdown: {}

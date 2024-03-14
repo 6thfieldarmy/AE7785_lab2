@@ -1,0 +1,18 @@
+[4.022s] Invoking command in '/home/burger/worren_hu_ws/src/teamwh_object_follower': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed
+[5.328s] running egg_info
+[5.345s] writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'
+[5.347s] running build
+[5.347s] running build_py
+[5.348s] copying teamwh_object_follower/get_obj_range.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[5.349s] copying teamwh_object_follower/find_object2.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[5.350s] running install
+[5.354s] running install_lib
+[5.363s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/get_obj_range.py to get_obj_range.cpython-310.pyc
+[5.366s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/find_object2.py to find_object2.cpython-310.pyc
+[5.370s] running install_data
+[5.373s] running install_egg_info
+[5.380s] removing '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[5.383s] Copying ../../build/teamwh_object_follower/teamwh_object_follower.egg-info to /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info
+[5.390s] running install_scripts
+[5.479s] writing list of installed files to '/home/burger/worren_hu_ws/build/teamwh_object_follower/install.log'
+[5.625s] Invoked command in '/home/burger/worren_hu_ws/src/teamwh_object_follower' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed

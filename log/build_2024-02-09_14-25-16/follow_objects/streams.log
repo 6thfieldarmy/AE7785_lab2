@@ -1,0 +1,16 @@
+[4.087s] Invoking command in '/home/burger/worren_hu_ws/src/follow_objects': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed
+[5.386s] running egg_info
+[5.408s] writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[5.410s] running build
+[5.410s] running build_py
+[5.412s] copying follow_objects/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.416s] running install
+[5.419s] running install_lib
+[5.427s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+[5.431s] running install_data
+[5.433s] running install_egg_info
+[5.441s] removing '/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)
+[5.442s] Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+[5.449s] running install_scripts
+[5.534s] writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'
+[5.686s] Invoked command in '/home/burger/worren_hu_ws/src/follow_objects' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed

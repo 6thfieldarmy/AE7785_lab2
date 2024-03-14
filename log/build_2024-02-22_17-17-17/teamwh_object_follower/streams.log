@@ -1,0 +1,16 @@
+[3.849s] Invoking command in '/home/burger/worren_hu_ws/src/teamwh_object_follower': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed
+[5.101s] running egg_info
+[5.118s] writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'
+[5.119s] running build
+[5.119s] running build_py
+[5.120s] copying teamwh_object_follower/get_obj_range.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[5.122s] running install
+[5.125s] running install_lib
+[5.133s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/get_obj_range.py to get_obj_range.cpython-310.pyc
+[5.136s] running install_data
+[5.138s] running install_egg_info
+[5.145s] removing '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[5.147s] Copying ../../build/teamwh_object_follower/teamwh_object_follower.egg-info to /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info
+[5.152s] running install_scripts
+[5.235s] writing list of installed files to '/home/burger/worren_hu_ws/build/teamwh_object_follower/install.log'
+[5.369s] Invoked command in '/home/burger/worren_hu_ws/src/teamwh_object_follower' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed

@@ -1,0 +1,14 @@
+running egg_info
+writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+copying teamwh_object_follower/get_obj_range.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+running install
+running install_lib
+byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/get_obj_range.py to get_obj_range.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/teamwh_object_follower/teamwh_object_follower.egg-info to /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/burger/worren_hu_ws/build/teamwh_object_follower/install.log'

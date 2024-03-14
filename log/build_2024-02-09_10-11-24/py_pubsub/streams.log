@@ -1,0 +1,55 @@
+[6.613s] Invoking command in '/home/burger/worren_hu_ws/src/py_pubsub': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[7.836s] running egg_info
+[7.837s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[7.913s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[7.915s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[7.916s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[7.917s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[7.923s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[7.924s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.155s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.156s] adding license file 'LICENSE'
+[8.159s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[8.160s] running build
+[8.161s] running build_py
+[8.162s] creating /home/burger/worren_hu_ws/build/py_pubsub/build
+[8.162s] creating /home/burger/worren_hu_ws/build/py_pubsub/build/lib
+[8.163s] creating /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[8.163s] copying py_pubsub/publisher_member_function.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[8.164s] copying py_pubsub/subscriber_member_function.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[8.165s] copying py_pubsub/__init__.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[8.167s] running install
+[8.171s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[8.171s] !!
+[8.172s] 
+[8.173s]         ********************************************************************************
+[8.179s]         Please avoid running ``setup.py`` directly.
+[8.180s]         Instead, use pypa/build, pypa/installer or other
+[8.181s]         standards-based tools.
+[8.186s] 
+[8.186s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[8.187s]         ********************************************************************************
+[8.187s] 
+[8.188s] !!
+[8.188s]   self.initialize_options()
+[8.205s] running install_lib
+[8.351s] creating /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.354s] copying /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.357s] copying /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.360s] copying /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[8.366s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[8.371s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[8.376s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[8.379s] running install_data
+[8.517s] creating /home/burger/worren_hu_ws/install/py_pubsub/share/ament_index
+[8.519s] creating /home/burger/worren_hu_ws/install/py_pubsub/share/ament_index/resource_index
+[8.520s] creating /home/burger/worren_hu_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[8.522s] copying resource/py_pubsub -> /home/burger/worren_hu_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[8.525s] copying package.xml -> /home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub
+[8.527s] running install_egg_info
+[8.640s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[8.650s] running install_scripts
+[9.717s] Installing listener script to /home/burger/worren_hu_ws/install/py_pubsub/lib/py_pubsub
+[9.718s] Installing talker script to /home/burger/worren_hu_ws/install/py_pubsub/lib/py_pubsub
+[9.720s] writing list of installed files to '/home/burger/worren_hu_ws/build/py_pubsub/install.log'
+[9.910s] Invoked command in '/home/burger/worren_hu_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed

@@ -1,0 +1,81 @@
+[0.000000] (-) TimerEvent: {}
+[0.001304] (-) JobUnselected: {'identifier': 'follow_objects'}
+[0.002135] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002726] (teamwh_object_follower) JobQueued: {'identifier': 'teamwh_object_follower', 'dependencies': OrderedDict()}
+[0.003086] (teamwh_object_follower) JobStarted: {'identifier': 'teamwh_object_follower'}
+[0.098970] (-) TimerEvent: {}
+[0.200212] (-) TimerEvent: {}
+[0.301099] (-) TimerEvent: {}
+[0.402041] (-) TimerEvent: {}
+[0.502770] (-) TimerEvent: {}
+[0.607410] (-) TimerEvent: {}
+[0.710454] (-) TimerEvent: {}
+[0.812259] (-) TimerEvent: {}
+[0.914290] (-) TimerEvent: {}
+[1.016026] (-) TimerEvent: {}
+[1.116684] (-) TimerEvent: {}
+[1.217871] (-) TimerEvent: {}
+[1.319128] (-) TimerEvent: {}
+[1.420385] (-) TimerEvent: {}
+[1.521776] (-) TimerEvent: {}
+[1.623271] (-) TimerEvent: {}
+[1.724543] (-) TimerEvent: {}
+[1.825378] (-) TimerEvent: {}
+[1.927083] (-) TimerEvent: {}
+[2.027708] (-) TimerEvent: {}
+[2.129138] (-) TimerEvent: {}
+[2.230703] (-) TimerEvent: {}
+[2.332171] (-) TimerEvent: {}
+[2.433103] (-) TimerEvent: {}
+[2.534940] (-) TimerEvent: {}
+[2.636098] (-) TimerEvent: {}
+[2.736767] (-) TimerEvent: {}
+[2.837653] (-) TimerEvent: {}
+[2.938772] (-) TimerEvent: {}
+[3.039733] (-) TimerEvent: {}
+[3.141212] (-) TimerEvent: {}
+[3.241981] (-) TimerEvent: {}
+[3.342727] (-) TimerEvent: {}
+[3.443475] (-) TimerEvent: {}
+[3.544838] (-) TimerEvent: {}
+[3.646326] (-) TimerEvent: {}
+[3.747519] (-) TimerEvent: {}
+[3.848243] (-) TimerEvent: {}
+[3.949035] (-) TimerEvent: {}
+[4.054857] (-) TimerEvent: {}
+[4.105966] (teamwh_object_follower) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/teamwh_object_follower', 'build', '--build-base', '/home/burger/worren_hu_ws/build/teamwh_object_follower/build', 'install', '--record', '/home/burger/worren_hu_ws/build/teamwh_object_follower/install.log', '--single-version-externally-managed'], 'cwd': '/home/burger/worren_hu_ws/src/teamwh_object_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'burger', 'SSH_CLIENT': '192.168.0.32 53954 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/burger', 'OLDPWD': '/home/burger', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/burger/dontTouch_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'burger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/burger/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '57', 'AMENT_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/burger/worren_hu_ws/build/teamwh_object_follower', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.32 53954 192.168.0.43 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver'}, 'shell': False}
+[4.155001] (-) TimerEvent: {}
+[4.256422] (-) TimerEvent: {}
+[4.357101] (-) TimerEvent: {}
+[4.458285] (-) TimerEvent: {}
+[4.559570] (-) TimerEvent: {}
+[4.660730] (-) TimerEvent: {}
+[4.761839] (-) TimerEvent: {}
+[4.863006] (-) TimerEvent: {}
+[4.964136] (-) TimerEvent: {}
+[5.065357] (-) TimerEvent: {}
+[5.166703] (-) TimerEvent: {}
+[5.267704] (-) TimerEvent: {}
+[5.368705] (-) TimerEvent: {}
+[5.395771] (teamwh_object_follower) StdoutLine: {'line': b'running egg_info\n'}
+[5.415293] (teamwh_object_follower) StdoutLine: {'line': b"writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'\n"}
+[5.416126] (teamwh_object_follower) StdoutLine: {'line': b'running build\n'}
+[5.416536] (teamwh_object_follower) StdoutLine: {'line': b'running build_py\n'}
+[5.417536] (teamwh_object_follower) StdoutLine: {'line': b'copying teamwh_object_follower/get_obj_range.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower\n'}
+[5.418854] (teamwh_object_follower) StdoutLine: {'line': b'running install\n'}
+[5.422468] (teamwh_object_follower) StdoutLine: {'line': b'running install_lib\n'}
+[5.429664] (teamwh_object_follower) StdoutLine: {'line': b'byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/get_obj_range.py to get_obj_range.cpython-310.pyc\n'}
+[5.433882] (teamwh_object_follower) StdoutLine: {'line': b'running install_data\n'}
+[5.436560] (teamwh_object_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.443918] (teamwh_object_follower) StdoutLine: {'line': b"removing '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.445839] (teamwh_object_follower) StdoutLine: {'line': b'Copying ../../build/teamwh_object_follower/teamwh_object_follower.egg-info to /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info\n'}
+[5.452853] (teamwh_object_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[5.468903] (-) TimerEvent: {}
+[5.542903] (teamwh_object_follower) StdoutLine: {'line': b"writing list of installed files to '/home/burger/worren_hu_ws/build/teamwh_object_follower/install.log'\n"}
+[5.569328] (-) TimerEvent: {}
+[5.670826] (-) TimerEvent: {}
+[5.688391] (teamwh_object_follower) CommandEnded: {'returncode': 0}
+[5.770975] (-) TimerEvent: {}
+[5.872931] (-) TimerEvent: {}
+[5.961006] (teamwh_object_follower) JobEnded: {'identifier': 'teamwh_object_follower', 'rc': 0}
+[5.964017] (-) EventReactorShutdown: {}

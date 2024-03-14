@@ -1,0 +1,7 @@
+[4.334s] Invoking command in '/home/burger/worren_hu_ws/build/navigate_to_goal': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/burger/worren_hu_ws/build/navigate_to_goal/build --no-deps install_data
+[5.663s] running develop
+[6.504s] running egg_info
+[6.657s] writing manifest file 'navigate_to_goal.egg-info/SOURCES.txt'
+[6.666s] running build_ext
+[6.689s] running install_data
+[7.021s] Invoked command in '/home/burger/worren_hu_ws/build/navigate_to_goal' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/burger/worren_hu_ws/build/navigate_to_goal/build --no-deps install_data

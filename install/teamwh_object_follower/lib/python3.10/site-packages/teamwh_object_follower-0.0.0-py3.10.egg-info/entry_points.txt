@@ -1,0 +1,5 @@
+[console_scripts]
+find_object2 = teamwh_object_follower.find_object2:main
+get_obj_range = teamwh_object_follower.get_obj_range:main
+turn_turtlebot = teamwh_object_follower.turn_turtlebot:main
+

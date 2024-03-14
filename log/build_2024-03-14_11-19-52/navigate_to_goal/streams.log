@@ -1,0 +1,16 @@
+[4.247s] Invoking command in '/home/burger/worren_hu_ws/src/navigate_to_goal': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed
+[5.479s] running egg_info
+[5.501s] writing manifest file '../../build/navigate_to_goal/navigate_to_goal.egg-info/SOURCES.txt'
+[5.502s] running build
+[5.502s] running build_py
+[5.504s] copying navigate_to_goal/get_object_range.py -> /home/burger/worren_hu_ws/build/navigate_to_goal/build/lib/navigate_to_goal
+[5.505s] running install
+[5.508s] running install_lib
+[5.516s] byte-compiling /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal/get_object_range.py to get_object_range.cpython-310.pyc
+[5.519s] running install_data
+[5.521s] running install_egg_info
+[5.529s] removing '/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[5.531s] Copying ../../build/navigate_to_goal/navigate_to_goal.egg-info to /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal-0.0.0-py3.10.egg-info
+[5.538s] running install_scripts
+[5.628s] writing list of installed files to '/home/burger/worren_hu_ws/build/navigate_to_goal/install.log'
+[5.771s] Invoked command in '/home/burger/worren_hu_ws/src/navigate_to_goal' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed

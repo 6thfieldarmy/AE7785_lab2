@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/follow_objects/follow_objects.egg-info
+writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/burger/worren_hu_ws/build/follow_objects/build
+creating /home/burger/worren_hu_ws/build/follow_objects/build/lib
+creating /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/view_image_raw.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/my_node.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/__init__.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/find_object.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/find_object2.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+copying follow_objects/view_camera.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+running install
+running install_lib
+creating /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/view_image_raw.py to view_image_raw.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/my_node.py to my_node.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/find_object.py to find_object.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/find_object2.py to find_object2.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/view_camera.py to view_camera.cpython-310.pyc
+running install_data
+creating /home/burger/worren_hu_ws/install/follow_objects/share/ament_index
+creating /home/burger/worren_hu_ws/install/follow_objects/share/ament_index/resource_index
+creating /home/burger/worren_hu_ws/install/follow_objects/share/ament_index/resource_index/packages
+copying resource/follow_objects -> /home/burger/worren_hu_ws/install/follow_objects/share/ament_index/resource_index/packages
+copying package.xml -> /home/burger/worren_hu_ws/install/follow_objects/share/follow_objects
+running install_egg_info
+Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'

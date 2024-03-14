@@ -1,0 +1,38 @@
+[3.914s] Invoking command in '/home/burger/worren_hu_ws/src/follow_objects': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed
+[5.231s] running egg_info
+[5.233s] creating ../../build/follow_objects/follow_objects.egg-info
+[5.237s] writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[5.247s] writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[5.248s] running build
+[5.248s] running build_py
+[5.249s] creating /home/burger/worren_hu_ws/build/follow_objects/build
+[5.250s] creating /home/burger/worren_hu_ws/build/follow_objects/build/lib
+[5.250s] creating /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.251s] copying follow_objects/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.251s] copying follow_objects/view_image_raw.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.253s] copying follow_objects/my_node.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.254s] copying follow_objects/__init__.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.254s] copying follow_objects/find_object.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.255s] copying follow_objects/find_object2.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.255s] copying follow_objects/view_camera.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.257s] running install
+[5.261s] running install_lib
+[5.266s] creating /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects
+[5.273s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+[5.275s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/view_image_raw.py to view_image_raw.cpython-310.pyc
+[5.282s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/my_node.py to my_node.cpython-310.pyc
+[5.283s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/__init__.py to __init__.cpython-310.pyc
+[5.283s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/find_object.py to find_object.cpython-310.pyc
+[5.293s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/find_object2.py to find_object2.cpython-310.pyc
+[5.293s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/view_camera.py to view_camera.cpython-310.pyc
+[5.295s] running install_data
+[5.296s] creating /home/burger/worren_hu_ws/install/follow_objects/share/ament_index
+[5.297s] creating /home/burger/worren_hu_ws/install/follow_objects/share/ament_index/resource_index
+[5.297s] creating /home/burger/worren_hu_ws/install/follow_objects/share/ament_index/resource_index/packages
+[5.297s] copying resource/follow_objects -> /home/burger/worren_hu_ws/install/follow_objects/share/ament_index/resource_index/packages
+[5.298s] copying package.xml -> /home/burger/worren_hu_ws/install/follow_objects/share/follow_objects
+[5.298s] running install_egg_info
+[5.305s] Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+[5.310s] running install_scripts
+[5.395s] writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'
+[5.539s] Invoked command in '/home/burger/worren_hu_ws/src/follow_objects' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed

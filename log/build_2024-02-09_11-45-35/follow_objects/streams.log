@@ -1,0 +1,14 @@
+[4.462s] Invoking command in '/home/burger/worren_hu_ws/src/follow_objects': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed
+[5.776s] running egg_info
+[5.796s] writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[5.797s] running build
+[5.798s] running build_py
+[5.804s] running install
+[5.807s] running install_lib
+[5.817s] running install_data
+[5.822s] running install_egg_info
+[5.832s] removing '/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)
+[5.834s] Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+[5.844s] running install_scripts
+[5.926s] writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'
+[6.067s] Invoked command in '/home/burger/worren_hu_ws/src/follow_objects' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed

@@ -1,0 +1,55 @@
+[4.808s] Invoking command in '/home/burger/worren_hu_ws/src/py_srvcli': PYTHONPATH=/home/burger/worren_hu_ws/build/py_srvcli/prefix_override:/home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/burger/worren_hu_ws/build/py_srvcli/build install --record /home/burger/worren_hu_ws/build/py_srvcli/install.log --single-version-externally-managed
+[5.880s] running egg_info
+[5.881s] creating ../../build/py_srvcli/py_srvcli.egg-info
+[5.948s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[5.950s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[5.951s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[5.952s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[5.953s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[5.953s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[6.099s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[6.100s] adding license file 'LICENSE'
+[6.103s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[6.104s] running build
+[6.104s] running build_py
+[6.105s] creating /home/burger/worren_hu_ws/build/py_srvcli/build
+[6.105s] creating /home/burger/worren_hu_ws/build/py_srvcli/build/lib
+[6.106s] creating /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli
+[6.106s] copying py_srvcli/client_member_function.py -> /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli
+[6.107s] copying py_srvcli/service_member_function.py -> /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli
+[6.108s] copying py_srvcli/__init__.py -> /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli
+[6.110s] running install
+[6.113s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[6.113s] !!
+[6.114s] 
+[6.114s]         ********************************************************************************
+[6.115s]         Please avoid running ``setup.py`` directly.
+[6.116s]         Instead, use pypa/build, pypa/installer or other
+[6.116s]         standards-based tools.
+[6.116s] 
+[6.117s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[6.117s]         ********************************************************************************
+[6.118s] 
+[6.118s] !!
+[6.118s]   self.initialize_options()
+[6.136s] running install_lib
+[6.211s] creating /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[6.212s] copying /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[6.213s] copying /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[6.214s] copying /home/burger/worren_hu_ws/build/py_srvcli/build/lib/py_srvcli/__init__.py -> /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli
+[6.218s] byte-compiling /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-310.pyc
+[6.220s] byte-compiling /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-310.pyc
+[6.222s] byte-compiling /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli/__init__.py to __init__.cpython-310.pyc
+[6.224s] running install_data
+[6.292s] creating /home/burger/worren_hu_ws/install/py_srvcli/share/ament_index
+[6.292s] creating /home/burger/worren_hu_ws/install/py_srvcli/share/ament_index/resource_index
+[6.293s] creating /home/burger/worren_hu_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[6.293s] copying resource/py_srvcli -> /home/burger/worren_hu_ws/install/py_srvcli/share/ament_index/resource_index/packages
+[6.294s] copying package.xml -> /home/burger/worren_hu_ws/install/py_srvcli/share/py_srvcli
+[6.295s] running install_egg_info
+[6.371s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages/py_srvcli-0.0.0-py3.10.egg-info
+[6.377s] running install_scripts
+[7.151s] Installing client script to /home/burger/worren_hu_ws/install/py_srvcli/lib/py_srvcli
+[7.153s] Installing service script to /home/burger/worren_hu_ws/install/py_srvcli/lib/py_srvcli
+[7.154s] writing list of installed files to '/home/burger/worren_hu_ws/build/py_srvcli/install.log'
+[7.303s] Invoked command in '/home/burger/worren_hu_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/py_srvcli/prefix_override:/home/burger/worren_hu_ws/install/py_srvcli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/burger/worren_hu_ws/build/py_srvcli/build install --record /home/burger/worren_hu_ws/build/py_srvcli/install.log --single-version-externally-managed

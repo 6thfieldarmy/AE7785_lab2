@@ -1,0 +1,116 @@
+[0.000000] (-) TimerEvent: {}
+[0.001662] (follow_objects) JobQueued: {'identifier': 'follow_objects', 'dependencies': OrderedDict()}
+[0.002259] (navigate_to_goal) JobQueued: {'identifier': 'navigate_to_goal', 'dependencies': OrderedDict()}
+[0.002538] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.002698] (teamwh_object_follower) JobQueued: {'identifier': 'teamwh_object_follower', 'dependencies': OrderedDict()}
+[0.003013] (follow_objects) JobStarted: {'identifier': 'follow_objects'}
+[0.098814] (-) TimerEvent: {}
+[0.200121] (-) TimerEvent: {}
+[0.301782] (-) TimerEvent: {}
+[0.402669] (-) TimerEvent: {}
+[0.413319] (navigate_to_goal) JobStarted: {'identifier': 'navigate_to_goal'}
+[0.502928] (-) TimerEvent: {}
+[0.603815] (-) TimerEvent: {}
+[0.704968] (-) TimerEvent: {}
+[0.763826] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.805235] (-) TimerEvent: {}
+[0.910007] (-) TimerEvent: {}
+[1.011231] (-) TimerEvent: {}
+[1.112088] (-) TimerEvent: {}
+[1.157256] (teamwh_object_follower) JobStarted: {'identifier': 'teamwh_object_follower'}
+[1.212254] (-) TimerEvent: {}
+[1.313278] (-) TimerEvent: {}
+[1.414191] (-) TimerEvent: {}
+[1.515719] (-) TimerEvent: {}
+[1.616832] (-) TimerEvent: {}
+[1.717527] (-) TimerEvent: {}
+[1.818233] (-) TimerEvent: {}
+[1.918888] (-) TimerEvent: {}
+[2.019563] (-) TimerEvent: {}
+[2.120252] (-) TimerEvent: {}
+[2.220996] (-) TimerEvent: {}
+[2.321646] (-) TimerEvent: {}
+[2.422334] (-) TimerEvent: {}
+[2.523255] (-) TimerEvent: {}
+[2.624210] (-) TimerEvent: {}
+[2.725052] (-) TimerEvent: {}
+[2.826437] (-) TimerEvent: {}
+[2.928058] (-) TimerEvent: {}
+[3.028846] (-) TimerEvent: {}
+[3.129912] (-) TimerEvent: {}
+[3.230656] (-) TimerEvent: {}
+[3.331355] (-) TimerEvent: {}
+[3.432155] (-) TimerEvent: {}
+[3.532828] (-) TimerEvent: {}
+[3.633503] (-) TimerEvent: {}
+[3.734215] (-) TimerEvent: {}
+[3.834889] (-) TimerEvent: {}
+[3.935609] (-) TimerEvent: {}
+[4.036344] (-) TimerEvent: {}
+[4.137322] (-) TimerEvent: {}
+[4.238008] (-) TimerEvent: {}
+[4.338850] (-) TimerEvent: {}
+[4.439887] (-) TimerEvent: {}
+[4.540951] (-) TimerEvent: {}
+[4.641701] (-) TimerEvent: {}
+[4.743941] (-) TimerEvent: {}
+[4.844863] (-) TimerEvent: {}
+[4.945561] (-) TimerEvent: {}
+[5.046232] (-) TimerEvent: {}
+[5.146932] (-) TimerEvent: {}
+[5.247662] (-) TimerEvent: {}
+[5.348330] (-) TimerEvent: {}
+[5.449042] (-) TimerEvent: {}
+[5.549705] (-) TimerEvent: {}
+[5.650416] (-) TimerEvent: {}
+[5.751173] (-) TimerEvent: {}
+[5.851951] (-) TimerEvent: {}
+[5.952781] (-) TimerEvent: {}
+[6.054011] (-) TimerEvent: {}
+[6.157424] (-) TimerEvent: {}
+[6.258105] (-) TimerEvent: {}
+[6.358927] (-) TimerEvent: {}
+[6.459668] (-) TimerEvent: {}
+[6.560381] (-) TimerEvent: {}
+[6.661163] (-) TimerEvent: {}
+[6.761891] (-) TimerEvent: {}
+[6.862593] (-) TimerEvent: {}
+[6.963267] (-) TimerEvent: {}
+[7.063984] (-) TimerEvent: {}
+[7.164672] (-) TimerEvent: {}
+[7.265395] (-) TimerEvent: {}
+[7.366262] (-) TimerEvent: {}
+[7.467431] (-) TimerEvent: {}
+[7.568312] (-) TimerEvent: {}
+[7.669384] (-) TimerEvent: {}
+[7.770478] (-) TimerEvent: {}
+[7.874515] (-) TimerEvent: {}
+[7.977237] (-) TimerEvent: {}
+[8.078186] (-) TimerEvent: {}
+[8.179214] (-) TimerEvent: {}
+[8.280122] (-) TimerEvent: {}
+[8.381151] (-) TimerEvent: {}
+[8.482303] (-) TimerEvent: {}
+[8.584020] (-) TimerEvent: {}
+[8.684963] (-) TimerEvent: {}
+[8.785897] (-) TimerEvent: {}
+[8.886941] (-) TimerEvent: {}
+[8.987891] (-) TimerEvent: {}
+[9.088779] (-) TimerEvent: {}
+[9.189750] (-) TimerEvent: {}
+[9.290827] (-) TimerEvent: {}
+[9.391728] (-) TimerEvent: {}
+[9.492649] (-) TimerEvent: {}
+[9.593623] (-) TimerEvent: {}
+[9.694599] (-) TimerEvent: {}
+[9.795970] (-) TimerEvent: {}
+[9.899281] (-) TimerEvent: {}
+[10.002587] (-) TimerEvent: {}
+[10.016859] (navigate_to_goal) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/burger/worren_hu_ws/src/navigate_to_goal/setup.py", line 5, in <module>\n    setup(\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup\n    return distutils.core.setup(**attrs)\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 481, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1120, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 684, in handle_display_options\n    self.print_commands()\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/dist.py", line 896, in print_commands\n    cmdclass = ep.resolve()\n  File "/home/burger/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2456, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 9, in <module>\n    from setuptools.command.easy_install import easy_install\n  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n  File "<frozen importlib._bootstrap>", line 991, in _find_and_load_unlocked\nKeyboardInterrupt\n\n'}
+[10.028172] (navigate_to_goal) JobEnded: {'identifier': 'navigate_to_goal', 'rc': 'SIGINT'}
+[10.031852] (follow_objects) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute\n    loop.run_until_complete(future)\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete\n    self.run_forever()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever\n    self._run_once()\n  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once\n    event_list = self._selector.select(timeout)\n  File "/usr/lib/python3.10/selectors.py", line 469, in select\n    fd_event_list = self._selector.poll(timeout, max_ev)\nKeyboardInterrupt\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 102, in build\n    return await extension.build(additional_hooks=additional_hooks)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 85, in build\n    available_commands = await self._get_available_commands(\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/build.py", line 175, in _get_available_commands\n    output = await check_output(\n  File "/usr/lib/python3/dist-packages/colcon_core/subprocess.py", line 129, in check_output\n    assert not rc, f\'Expected {args} to pass: {stderr_data}\'\nAssertionError: Expected [\'/usr/bin/python3\', \'setup.py\', \'--help-commands\'] to pass: Traceback (most recent call last):\n  File "/home/burger/worren_hu_ws/src/follow_objects/setup.py", line 5, in <module>\n    setup(\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 153, in setup\n    return distutils.core.setup(**attrs)\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 134, in setup\n    ok = dist.parse_command_line()\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 481, in parse_command_line\n    if self.handle_display_options(option_order):\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1120, in handle_display_options\n    return _Distribution.handle_display_options(self, option_order)\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 684, in handle_display_options\n    self.print_commands()\n  File "/home/burger/.local/lib/python3.10/site-packages/setuptools/dist.py", line 896, in print_commands\n    cmdclass = ep.resolve()\n  File "/home/burger/.local/lib/python3.10/site-packages/pkg_resources/__init__.py", line 2456, in resolve\n    module = __import__(self.module_name, fromlist=[\'__name__\'], level=0)\n  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load\n  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked\n  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked\n  File "<frozen importlib._bootstrap_external>", line 879, in exec_module\n  File "<frozen importlib._bootstrap_external>", line 1012, in get_code\n  File "<frozen importlib._bootstrap_external>", line 672, in _compile_bytecode\nKeyboardInterrupt\n\n'}
+[10.041628] (follow_objects) JobEnded: {'identifier': 'follow_objects', 'rc': 'SIGINT'}
+[10.045698] (teamwh_object_follower) JobEnded: {'identifier': 'teamwh_object_follower', 'rc': 'SIGINT'}
+[10.100389] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 'SIGINT'}
+[10.102901] (-) TimerEvent: {}
+[10.103215] (-) EventReactorShutdown: {}

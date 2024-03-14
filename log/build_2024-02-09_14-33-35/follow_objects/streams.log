@@ -1,0 +1,16 @@
+[3.961s] Invoking command in '/home/burger/worren_hu_ws/src/follow_objects': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed
+[5.281s] running egg_info
+[5.301s] writing manifest file '../../build/follow_objects/follow_objects.egg-info/SOURCES.txt'
+[5.302s] running build
+[5.306s] running build_py
+[5.307s] copying follow_objects/find_object2.py -> /home/burger/worren_hu_ws/build/follow_objects/build/lib/follow_objects
+[5.307s] running install
+[5.312s] running install_lib
+[5.321s] byte-compiling /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects/find_object2.py to find_object2.cpython-310.pyc
+[5.327s] running install_data
+[5.330s] running install_egg_info
+[5.340s] removing '/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info' (and everything under it)
+[5.341s] Copying ../../build/follow_objects/follow_objects.egg-info to /home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages/follow_objects-0.0.0-py3.10.egg-info
+[5.347s] running install_scripts
+[5.431s] writing list of installed files to '/home/burger/worren_hu_ws/build/follow_objects/install.log'
+[5.580s] Invoked command in '/home/burger/worren_hu_ws/src/follow_objects' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed

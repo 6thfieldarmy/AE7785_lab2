@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.002833] (-) JobUnselected: {'identifier': 'follow_objects'}
+[0.004013] (-) JobUnselected: {'identifier': 'navigate_to_goal'}
+[0.004678] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.005739] (-) JobUnselected: {'identifier': 'teamwh_object_follower'}
+[0.006220] (-) EventReactorShutdown: {}

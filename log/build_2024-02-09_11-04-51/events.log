@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001824] (-) JobUnselected: {'identifier': 'follow_obj2'}
+[0.002584] (-) JobUnselected: {'identifier': 'follow_objects'}
+[0.003038] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.003252] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.098793] (-) TimerEvent: {}
+[0.199811] (-) TimerEvent: {}
+[0.301306] (-) TimerEvent: {}
+[0.408648] (-) TimerEvent: {}
+[0.509443] (-) TimerEvent: {}
+[0.610168] (-) TimerEvent: {}
+[0.710843] (-) TimerEvent: {}
+[0.811555] (-) TimerEvent: {}
+[0.912218] (-) TimerEvent: {}
+[1.012929] (-) TimerEvent: {}
+[1.113549] (-) TimerEvent: {}
+[1.214243] (-) TimerEvent: {}
+[1.315182] (-) TimerEvent: {}
+[1.417251] (-) TimerEvent: {}
+[1.518634] (-) TimerEvent: {}
+[1.619797] (-) TimerEvent: {}
+[1.720494] (-) TimerEvent: {}
+[1.821327] (-) TimerEvent: {}
+[1.921964] (-) TimerEvent: {}
+[2.023639] (-) TimerEvent: {}
+[2.124384] (-) TimerEvent: {}
+[2.225376] (-) TimerEvent: {}
+[2.325992] (-) TimerEvent: {}
+[2.426606] (-) TimerEvent: {}
+[2.527241] (-) TimerEvent: {}
+[2.627847] (-) TimerEvent: {}
+[2.728614] (-) TimerEvent: {}
+[2.829280] (-) TimerEvent: {}
+[2.931295] (-) TimerEvent: {}
+[3.032120] (-) TimerEvent: {}
+[3.132907] (-) TimerEvent: {}
+[3.233553] (-) TimerEvent: {}
+[3.334194] (-) TimerEvent: {}
+[3.435447] (-) TimerEvent: {}
+[3.536251] (-) TimerEvent: {}
+[3.637068] (-) TimerEvent: {}
+[3.738997] (-) TimerEvent: {}
+[3.839688] (-) TimerEvent: {}
+[3.940323] (-) TimerEvent: {}
+[4.040999] (-) TimerEvent: {}
+[4.142095] (-) TimerEvent: {}
+[4.242701] (-) TimerEvent: {}
+[4.343346] (-) TimerEvent: {}
+[4.444127] (-) TimerEvent: {}
+[4.544924] (-) TimerEvent: {}
+[4.646236] (-) TimerEvent: {}
+[4.717853] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/burger/worren_hu_ws/build/py_pubsub/build', 'install', '--record', '/home/burger/worren_hu_ws/build/py_pubsub/install.log', '--single-version-externally-managed'], 'cwd': '/home/burger/worren_hu_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'burger', 'SSH_CLIENT': '192.168.0.33 63088 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/burger', 'OLDPWD': '/home/burger/worren_hu_ws/src/follow_objects', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/burger/dontTouch_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'burger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/burger/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '57', 'AMENT_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/burger/worren_hu_ws/build/py_pubsub', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.33 63088 192.168.0.43 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver'}, 'shell': False}
+[4.746552] (-) TimerEvent: {}
+[4.847345] (-) TimerEvent: {}
+[4.948046] (-) TimerEvent: {}
+[5.048720] (-) TimerEvent: {}
+[5.149398] (-) TimerEvent: {}
+[5.250063] (-) TimerEvent: {}
+[5.360352] (-) TimerEvent: {}
+[5.461010] (-) TimerEvent: {}
+[5.561648] (-) TimerEvent: {}
+[5.662279] (-) TimerEvent: {}
+[5.757689] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[5.762420] (-) TimerEvent: {}
+[5.833217] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[5.837611] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[5.838746] (py_pubsub) StdoutLine: {'line': b'deleting ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[5.839605] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[5.840470] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[5.862577] (-) TimerEvent: {}
+[5.963699] (-) TimerEvent: {}
+[5.987782] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.989977] (py_pubsub) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.992687] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[5.993513] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[5.995963] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[5.999791] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[6.000412] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[6.001908] (py_pubsub) StderrLine: {'line': b'/home/burger/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[6.002725] (py_pubsub) StderrLine: {'line': b'!!\n'}
+[6.003221] (py_pubsub) StderrLine: {'line': b'\n'}
+[6.003925] (py_pubsub) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.004484] (py_pubsub) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[6.005397] (py_pubsub) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[6.006141] (py_pubsub) StderrLine: {'line': b'        standards-based tools.\n'}
+[6.006448] (py_pubsub) StderrLine: {'line': b'\n'}
+[6.006711] (py_pubsub) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[6.006967] (py_pubsub) StderrLine: {'line': b'        ********************************************************************************\n'}
+[6.007259] (py_pubsub) StderrLine: {'line': b'\n'}
+[6.007797] (py_pubsub) StderrLine: {'line': b'!!\n'}
+[6.008279] (py_pubsub) StderrLine: {'line': b'  self.initialize_options()\n'}
+[6.023926] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[6.063880] (-) TimerEvent: {}
+[6.093710] (py_pubsub) StdoutLine: {'line': b'copying /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub\n'}
+[6.097097] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc\n'}
+[6.098801] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[6.165629] (-) TimerEvent: {}
+[6.172851] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/burger/worren_hu_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[6.176204] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub\n'}
+[6.177030] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.248302] (py_pubsub) StdoutLine: {'line': b"removing '/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.250140] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[6.256116] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[6.265757] (-) TimerEvent: {}
+[6.366407] (-) TimerEvent: {}
+[6.467080] (-) TimerEvent: {}
+[6.567765] (-) TimerEvent: {}
+[6.668467] (-) TimerEvent: {}
+[6.770133] (-) TimerEvent: {}
+[6.870805] (-) TimerEvent: {}
+[6.972505] (-) TimerEvent: {}
+[6.987625] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/burger/worren_hu_ws/build/py_pubsub/install.log'\n"}
+[7.072823] (-) TimerEvent: {}
+[7.140712] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.172937] (-) TimerEvent: {}
+[7.274241] (-) TimerEvent: {}
+[7.375532] (-) TimerEvent: {}
+[7.421118] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.423901] (-) EventReactorShutdown: {}

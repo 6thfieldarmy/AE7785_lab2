@@ -1,0 +1,27 @@
+[5.197s] Invoking command in '/home/burger/worren_hu_ws/src/teamwh_object_follower': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed
+[7.334s] running egg_info
+[7.335s] creating ../../build/teamwh_object_follower/teamwh_object_follower.egg-info
+[7.341s] writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'
+[7.359s] writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'
+[7.362s] running build
+[7.363s] running build_py
+[7.369s] creating /home/burger/worren_hu_ws/build/teamwh_object_follower/build
+[7.370s] creating /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib
+[7.370s] creating /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[7.371s] copying teamwh_object_follower/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[7.377s] copying teamwh_object_follower/get_obj_range.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[7.379s] copying teamwh_object_follower/__init__.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[7.384s] copying teamwh_object_follower/find_object2.py -> /home/burger/worren_hu_ws/build/teamwh_object_follower/build/lib/teamwh_object_follower
+[7.384s] running install
+[7.387s] running install_lib
+[7.392s] creating /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower
+[7.402s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+[7.407s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/get_obj_range.py to get_obj_range.cpython-310.pyc
+[7.414s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/__init__.py to __init__.cpython-310.pyc
+[7.418s] byte-compiling /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower/find_object2.py to find_object2.cpython-310.pyc
+[7.426s] running install_data
+[7.430s] creating /home/burger/worren_hu_ws/install/teamwh_object_follower/share/ament_index
+[7.434s] creating /home/burger/worren_hu_ws/install/teamwh_object_follower/share/ament_index/resource_index
+[7.437s] creating /home/burger/worren_hu_ws/install/teamwh_object_follower/share/ament_index/resource_index/packages
+[7.446s] error: can't copy 'resource/teamwh_object_follower': doesn't exist or not a regular file
+[7.565s] Invoked command in '/home/burger/worren_hu_ws/src/teamwh_object_follower' returned '1': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed

@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.001658] (-) JobUnselected: {'identifier': 'follow_objects'}
+[0.002312] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.002605] (-) JobUnselected: {'identifier': 'teamwh_object_follower'}
+[0.002770] (navigate_to_goal) JobQueued: {'identifier': 'navigate_to_goal', 'dependencies': OrderedDict()}
+[0.003110] (navigate_to_goal) JobStarted: {'identifier': 'navigate_to_goal'}
+[0.098909] (-) TimerEvent: {}
+[0.200037] (-) TimerEvent: {}
+[0.301335] (-) TimerEvent: {}
+[0.402660] (-) TimerEvent: {}
+[0.504571] (-) TimerEvent: {}
+[0.605493] (-) TimerEvent: {}
+[0.706317] (-) TimerEvent: {}
+[0.807448] (-) TimerEvent: {}
+[0.908591] (-) TimerEvent: {}
+[1.011945] (-) TimerEvent: {}
+[1.112647] (-) TimerEvent: {}
+[1.213442] (-) TimerEvent: {}
+[1.314241] (-) TimerEvent: {}
+[1.415016] (-) TimerEvent: {}
+[1.515828] (-) TimerEvent: {}
+[1.616641] (-) TimerEvent: {}
+[1.717823] (-) TimerEvent: {}
+[1.818731] (-) TimerEvent: {}
+[1.920116] (-) TimerEvent: {}
+[2.021606] (-) TimerEvent: {}
+[2.122730] (-) TimerEvent: {}
+[2.224001] (-) TimerEvent: {}
+[2.326466] (-) TimerEvent: {}
+[2.427677] (-) TimerEvent: {}
+[2.528419] (-) TimerEvent: {}
+[2.629661] (-) TimerEvent: {}
+[2.730765] (-) TimerEvent: {}
+[2.831435] (-) TimerEvent: {}
+[2.932565] (-) TimerEvent: {}
+[3.033766] (-) TimerEvent: {}
+[3.134484] (-) TimerEvent: {}
+[3.235292] (-) TimerEvent: {}
+[3.337108] (-) TimerEvent: {}
+[3.437887] (-) TimerEvent: {}
+[3.538634] (-) TimerEvent: {}
+[3.639631] (-) TimerEvent: {}
+[3.741362] (-) TimerEvent: {}
+[3.790907] (navigate_to_goal) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--editable', '--build-directory', '/home/burger/worren_hu_ws/build/navigate_to_goal/build', '--no-deps', 'install_data'], 'cwd': '/home/burger/worren_hu_ws/build/navigate_to_goal', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'burger', 'SSH_CLIENT': '192.168.0.32 53598 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/burger', 'OLDPWD': '/home/burger/worren_hu_ws/install', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/burger/dontTouch_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'burger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '11', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/burger/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '57', 'AMENT_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/burger/worren_hu_ws/build/navigate_to_goal', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.32 53598 192.168.0.43 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver'}, 'shell': False}
+[3.841502] (-) TimerEvent: {}
+[3.942321] (-) TimerEvent: {}
+[4.043138] (-) TimerEvent: {}
+[4.144574] (-) TimerEvent: {}
+[4.248101] (-) TimerEvent: {}
+[4.349940] (-) TimerEvent: {}
+[4.451630] (-) TimerEvent: {}
+[4.553359] (-) TimerEvent: {}
+[4.655048] (-) TimerEvent: {}
+[4.755785] (-) TimerEvent: {}
+[4.856546] (-) TimerEvent: {}
+[4.957394] (-) TimerEvent: {}
+[5.058196] (-) TimerEvent: {}
+[5.115284] (navigate_to_goal) StdoutLine: {'line': b'running develop\n'}
+[5.158359] (-) TimerEvent: {}
+[5.259539] (-) TimerEvent: {}
+[5.360908] (-) TimerEvent: {}
+[5.462823] (-) TimerEvent: {}
+[5.564020] (-) TimerEvent: {}
+[5.665452] (-) TimerEvent: {}
+[5.766757] (-) TimerEvent: {}
+[5.867442] (-) TimerEvent: {}
+[5.949308] (navigate_to_goal) StdoutLine: {'line': b'running egg_info\n'}
+[5.965327] (navigate_to_goal) StdoutLine: {'line': b"writing manifest file 'navigate_to_goal.egg-info/SOURCES.txt'\n"}
+[5.967605] (-) TimerEvent: {}
+[5.972234] (navigate_to_goal) StdoutLine: {'line': b'running build_ext\n'}
+[5.978326] (navigate_to_goal) StdoutLine: {'line': b'running install_data\n'}
+[6.067882] (-) TimerEvent: {}
+[6.131600] (navigate_to_goal) CommandEnded: {'returncode': 0}
+[6.168000] (-) TimerEvent: {}
+[6.269092] (-) TimerEvent: {}
+[6.371350] (-) TimerEvent: {}
+[6.474460] (-) TimerEvent: {}
+[6.501960] (navigate_to_goal) JobEnded: {'identifier': 'navigate_to_goal', 'rc': 0}
+[6.505726] (-) EventReactorShutdown: {}
