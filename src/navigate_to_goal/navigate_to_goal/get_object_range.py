@@ -83,9 +83,9 @@ class get_object_range(Node):
             if abs(np.nanargmin(rg) - danger_zone) > 20:
                 twist_msg.angular.z = 0.0
             elif np.nanargmin(rg) - danger_zone <= 0:                 
-                twist_msg.angular.z = 0.2*(- np.nanargmin(rg))/20  # - turn right; + turn left
+                twist_msg.angular.z = -0.5*(- np.nanargmin(rg))/20  # - turn right; + turn left
             else:
-                twist_msg.angular.z = 0.2*( 40 - np.nanargmin(rg))/20
+                twist_msg.angular.z = -0.5*( 40 - np.nanargmin(rg))/20
             # print(rg)
             # print("minimum dist: %.4f , orientation: %d" % (min(rg), np.nanargmin(rg)-20) )
             print(twist_msg.angular.z)

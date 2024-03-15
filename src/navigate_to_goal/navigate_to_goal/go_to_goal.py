@@ -54,7 +54,7 @@ class go_to_goal(Node):
         self.publisher1 = self.create_publisher(Twist,'/cmd_vel', 5)
         # self.publisher2 = self.create_publisher(CompressedImage,'/go_to_goal/compressed',qos_profile)
         
-        time.sleep(5) #for me to get ready 
+        #time.sleep(5) #for me to get ready 
         self.timer_ = self.create_timer(0.2, self.go_goal)
         #self.time_flag = 0
 
@@ -89,20 +89,28 @@ class go_to_goal(Node):
 
     def go_goal(self):
         self.cmd = Twist()
-        err_tol = 0.1
-        err_tol_ang = 0.04
+        err_tol = 0.08
+        err_tol_ang = 0.06
+        self.cmd.linear.x = 0.0  #initial
+        self.cmd.angular.z = 0.0
 
         if 1.5 - 0.5*err_tol <= self.loc_x < 1.5 + 0.5*err_tol and 0.0 - 0.5*err_tol <= self.loc_y <= 0.0 + 0.5*err_tol:
             self.waypoint1_arrived = True
             if self.sleep1_flag:
                 self.sleep1_flag = False
+                self.cmd.linear.x = 0.0
+                self.cmd.angular.z = 0.0
                 print("First waypoint arrived! Rest 10 sec!")
+                self.publisher1.publish(self.cmd)
                 time.sleep(10)
-        if 1.5 - 0.5*err_tol <= self.loc_x < 1.5 + 0.5*err_tol and 1.4 - 0.5*err_tol <= self.loc_y <= 1.4 + 0.5*err_tol:
+        if 1.5 - 0.5*err_tol <= self.loc_x < 1.5 + 0.5*err_tol and 1.4 - 0.5*err_tol  <= self.loc_y <= 1.4 + 0.5*err_tol:
             self.waypoint2_arrived = True
             if self.sleep2_flag:
                 self.sleep2_flag = False
+                self.cmd.linear.x = 0.0
+                self.cmd.angular.z = 0.0
                 print("Second waypoint arrived! Rest 10 sec!")
+                self.publisher1.publish(self.cmd)
                 time.sleep(10)
             #TODO stop 10 sec
         if 0.0 - 0.5*err_tol <= self.loc_x < 0.0 + 0.5*err_tol and 1.4 - 0.5*err_tol <= self.loc_y <= 1.4 + 0.5*err_tol:
@@ -119,11 +127,11 @@ class go_to_goal(Node):
                 rel_target_angle = np.arctan2(rel_pos_y , rel_pos_x)
                 
                 if self.ang > rel_target_angle + err_tol_ang: #means need to turn right-
-                    self.cmd.angular.z = max(-0.2, 0.2*(rel_target_angle - self.ang )/(0.4) )
+                    self.cmd.angular.z = max(-0.6, 0.6*(rel_target_angle - self.ang )/(0.4) )
                 elif self.ang < rel_target_angle - err_tol_ang: #means need to turn left+
-                    self.cmd.angular.z = min(0.2, 0.2*(rel_target_angle - self.ang )/(0.4) )
+                    self.cmd.angular.z = min(0.6, 0.6*(rel_target_angle - self.ang )/(0.4) )
                 else:   #right orientation
-                    self.cmd.linear.x = 0.15
+                    self.cmd.linear.x = 0.1
             else:
                 self.cmd.angular.z = self.obs_avoidance_turn
                 self.cmd.linear.x = self.obs_avoidance_move
@@ -138,11 +146,11 @@ class go_to_goal(Node):
                 rel_target_angle = np.arctan2(rel_pos_y , rel_pos_x)
                 
                 if self.ang > rel_target_angle + err_tol_ang: #means need to turn right-
-                    self.cmd.angular.z = max(-0.2, 0.2*(rel_target_angle - self.ang )/(0.4) )
+                    self.cmd.angular.z = max(-0.6, 0.6*(rel_target_angle - self.ang )/(0.4) )
                 elif self.ang < rel_target_angle - err_tol_ang: #means need to turn left+
-                    self.cmd.angular.z = min(0.2, 0.2*(rel_target_angle - self.ang )/(0.4) )
+                    self.cmd.angular.z = min(0.6, 0.6*(rel_target_angle - self.ang )/(0.4) )
                 else:   #right orientation
-                    self.cmd.linear.x = 0.15
+                    self.cmd.linear.x = 0.1
             else:
                 self.cmd.angular.z = self.obs_avoidance_turn
                 self.cmd.linear.x = self.obs_avoidance_move
@@ -151,16 +159,25 @@ class go_to_goal(Node):
         elif self.waypoint1_arrived and self.waypoint2_arrived and not self.waypoint3_arrived:
             if (self.obs_avoidance_turn == 0) and self.obs_avoidance_move == 0:    #go goal logic
                 self.get_logger().info('moving to 3rd point') 
-                rel_pos_x = 0 - self.loc_x
+                rel_pos_x = 0.0 - self.loc_x
                 rel_pos_y = 1.4 - self.loc_y
-                rel_target_angle = np.arctan2(rel_pos_y , rel_pos_x)
-                
+                rel_target_angle = np.arctan2(rel_pos_y , rel_pos_x) #this is likely to be a negative number
+                #err = self.ang - rel_target_angle
+                ang_diff = rel_target_angle - self.ang
+                if ang_diff > np.pi:
+                    ang_diff = ang_diff - 2*np.pi
+                elif ang_diff < -np.pi:
+                    ang_diff = 2*np.pi + ang_diff
+                    
                 if self.ang > rel_target_angle + err_tol_ang: #means need to turn right-
-                    self.cmd.angular.z = max(-0.2, 0.2*(rel_target_angle - self.ang )/(0.4) )
+                    self.cmd.angular.z = max(-0.6, 0.6*(ang_diff )/(0.4) )
+                    print("3rd waypoint angular turn = %.2f" % self.cmd.angular.z )
                 elif self.ang < rel_target_angle - err_tol_ang: #means need to turn left+
-                    self.cmd.angular.z = min(0.2, 0.2*(rel_target_angle - self.ang )/(0.4) )
+                    self.cmd.angular.z = min(0.6, 0.6*(ang_diff )/(0.4) )
+                    print("3rd waypoint angular turn = %.2f" % self.cmd.angular.z )
                 else:   #right orientation
-                    self.cmd.linear.x = 0.15
+                    self.cmd.angular.z = 0.0
+                    self.cmd.linear.x = 0.1
             else:
                 self.cmd.angular.z = self.obs_avoidance_turn
                 self.cmd.linear.x = self.obs_avoidance_move
@@ -179,10 +196,15 @@ class go_to_goal(Node):
         #     else:
         #         self.cmd.linear.x = 0.0
         #         self.get_logger().info('object detected!')
-        else:
+        elif self.waypoint3_arrived:
             self.cmd.linear.x = 0.0
             self.cmd.angular.z = 0.0
             self.get_logger().info('Stop.')
+
+        else:
+            print("else condition")
+            self.cmd.linear.x = 0.0
+            self.cmd.angular.z = 0.0   
 
         self.publisher1.publish(self.cmd)
         #print(self.cmd)
