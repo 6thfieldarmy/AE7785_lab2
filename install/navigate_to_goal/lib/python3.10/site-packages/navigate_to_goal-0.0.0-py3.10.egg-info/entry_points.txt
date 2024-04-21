@@ -1,0 +1,5 @@
+[console_scripts]
+get_object_range = navigate_to_goal.get_object_range:main
+get_robot_location = navigate_to_goal.get_robot_location:main
+go_to_goal = navigate_to_goal.go_to_goal:main
+

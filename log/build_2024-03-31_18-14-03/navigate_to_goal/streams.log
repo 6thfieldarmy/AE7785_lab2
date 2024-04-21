@@ -1,0 +1,24 @@
+[16.811s] Invoking command in '/home/burger/worren_hu_ws/build/navigate_to_goal': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/burger/worren_hu_ws/build/navigate_to_goal/build
+[19.252s] running develop
+[22.592s] Invoked command in '/home/burger/worren_hu_ws/build/navigate_to_goal' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/burger/worren_hu_ws/build/navigate_to_goal/build
+[22.599s] Invoking command in '/home/burger/worren_hu_ws/src/navigate_to_goal': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed
+[24.228s] running egg_info
+[24.389s] writing manifest file '../../build/navigate_to_goal/navigate_to_goal.egg-info/SOURCES.txt'
+[24.390s] running build
+[24.390s] running build_py
+[24.561s] copying navigate_to_goal/get_robot_location.py -> /home/burger/worren_hu_ws/build/navigate_to_goal/build/lib/navigate_to_goal
+[24.564s] copying navigate_to_goal/go_to_goal.py -> /home/burger/worren_hu_ws/build/navigate_to_goal/build/lib/navigate_to_goal
+[24.567s] copying navigate_to_goal/get_object_range.py -> /home/burger/worren_hu_ws/build/navigate_to_goal/build/lib/navigate_to_goal
+[24.570s] running install
+[24.574s] running install_lib
+[24.578s] creating /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal
+[24.588s] byte-compiling /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal/get_robot_location.py to get_robot_location.cpython-310.pyc
+[24.594s] byte-compiling /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal/go_to_goal.py to go_to_goal.cpython-310.pyc
+[24.600s] byte-compiling /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal/__init__.py to __init__.cpython-310.pyc
+[24.602s] byte-compiling /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal/get_object_range.py to get_object_range.cpython-310.pyc
+[24.605s] running install_data
+[24.614s] running install_egg_info
+[24.625s] Copying ../../build/navigate_to_goal/navigate_to_goal.egg-info to /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal-0.0.0-py3.10.egg-info
+[24.639s] running install_scripts
+[24.744s] writing list of installed files to '/home/burger/worren_hu_ws/build/navigate_to_goal/install.log'
+[24.901s] Invoked command in '/home/burger/worren_hu_ws/src/navigate_to_goal' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed

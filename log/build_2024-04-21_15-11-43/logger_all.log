@@ -1,0 +1,178 @@
+[5.150s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'find_way_out']
+[5.150s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['find_way_out'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8e377100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e377dc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e377dc0>>)
+[5.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.468s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/burger/worren_hu_ws'
+[5.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.471s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.472s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.535s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.536s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.537s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.538s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.539s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.541s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.542s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.542s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.543s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.544s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.545s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extensions ['ignore', 'ignore_ament_install']
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extension 'ignore'
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extension 'ignore_ament_install'
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extensions ['colcon_pkg']
+[5.546s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extension 'colcon_pkg'
+[5.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extensions ['colcon_meta']
+[5.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extension 'colcon_meta'
+[5.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extensions ['ros']
+[5.547s] Level 1:colcon.colcon_core.package_identification:_identify(src/find_way_out) by extension 'ros'
+[5.563s] DEBUG:colcon.colcon_core.package_identification:Package 'src/find_way_out' with type 'ros.ament_python' and name 'find_way_out'
+[5.563s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['ignore', 'ignore_ament_install']
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'ignore'
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'ignore_ament_install'
+[5.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['colcon_pkg']
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'colcon_pkg'
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['colcon_meta']
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'colcon_meta'
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['ros']
+[5.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'ros'
+[5.568s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_objects' with type 'ros.ament_python' and name 'follow_objects'
+[5.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['ignore', 'ignore_ament_install']
+[5.569s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'ignore'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'ignore_ament_install'
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['colcon_pkg']
+[5.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'colcon_pkg'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['colcon_meta']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'colcon_meta'
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['ros']
+[5.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'ros'
+[5.575s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigate_to_goal' with type 'ros.ament_python' and name 'navigate_to_goal'
+[5.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[5.576s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[5.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[5.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[5.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[5.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[5.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[5.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['ignore', 'ignore_ament_install']
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'ignore'
+[5.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'ignore_ament_install'
+[5.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['colcon_pkg']
+[5.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'colcon_pkg'
+[5.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['colcon_meta']
+[5.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'colcon_meta'
+[5.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['ros']
+[5.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'ros'
+[5.587s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teamwh_object_follower' with type 'ros.ament_python' and name 'teamwh_object_follower'
+[5.587s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.588s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[5.946s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'follow_objects' in 'src/follow_objects'
+[5.946s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'navigate_to_goal' in 'src/navigate_to_goal'
+[5.946s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_pubsub' in 'src/py_pubsub'
+[5.946s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'teamwh_object_follower' in 'src/teamwh_object_follower'
+[6.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.265s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/burger/worren_hu_ws/install
+[6.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/burger/dontTouch_ws/install
+[6.423s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 244 installed packages in /opt/ros/humble
+[6.428s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.874s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'cmake_args' from command line to 'None'
+[6.875s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'cmake_target' from command line to 'None'
+[6.876s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.876s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'cmake_clean_cache' from command line to 'False'
+[6.877s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'cmake_clean_first' from command line to 'False'
+[6.877s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'cmake_force_configure' from command line to 'False'
+[6.877s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'ament_cmake_args' from command line to 'None'
+[6.877s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'catkin_cmake_args' from command line to 'None'
+[6.877s] Level 5:colcon.colcon_core.verb:set package 'find_way_out' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.877s] DEBUG:colcon.colcon_core.verb:Building package 'find_way_out' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/worren_hu_ws/build/find_way_out', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/worren_hu_ws/install/find_way_out', 'merge_install': False, 'path': '/home/burger/worren_hu_ws/src/find_way_out', 'symlink_install': True, 'test_result_base': None}
+[6.951s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.025s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.026s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/worren_hu_ws/src/find_way_out' with build type 'ament_python'
+[7.027s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_way_out', 'ament_prefix_path')
+[7.128s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.130s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/hook/ament_prefix_path.ps1'
+[7.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/hook/ament_prefix_path.dsv'
+[7.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/hook/ament_prefix_path.sh'
+[7.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.111s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/worren_hu_ws/src/find_way_out'
+[9.184s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/worren_hu_ws/build/find_way_out': PYTHONPATH=/home/burger/worren_hu_ws/build/find_way_out/prefix_override:/home/burger/worren_hu_ws/install/find_way_out/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/burger/worren_hu_ws/build/find_way_out/build --no-deps install_data
+[14.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_way_out', 'pythonpath_develop')
+[14.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/worren_hu_ws/build/find_way_out' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/find_way_out/prefix_override:/home/burger/worren_hu_ws/install/find_way_out/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/burger/worren_hu_ws/build/find_way_out/build --no-deps install_data
+[14.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/build/find_way_out/share/find_way_out/hook/pythonpath_develop.ps1'
+[14.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/build/find_way_out/share/find_way_out/hook/pythonpath_develop.dsv'
+[14.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/build/find_way_out/share/find_way_out/hook/pythonpath_develop.sh'
+[14.934s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out' for CMake module files
+[14.936s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out' for CMake config files
+[14.940s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out/lib'
+[14.940s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out/bin'
+[14.941s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out/lib/pkgconfig/find_way_out.pc'
+[14.942s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out/lib/python3.10/site-packages'
+[14.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('find_way_out', 'pythonpath')
+[15.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/hook/pythonpath.ps1'
+[15.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/hook/pythonpath.dsv'
+[15.023s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/hook/pythonpath.sh'
+[15.026s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/find_way_out/bin'
+[15.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(find_way_out)
+[15.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/package.ps1'
+[15.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/package.dsv'
+[15.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/package.sh'
+[15.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/package.bash'
+[15.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/find_way_out/share/find_way_out/package.zsh'
+[15.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/worren_hu_ws/install/find_way_out/share/colcon-core/packages/find_way_out)
+[15.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.142s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.142s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.143s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.261s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.262s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.366s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[15.367s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.451s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.ps1'
+[15.456s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/worren_hu_ws/install/_local_setup_util_ps1.py'
+[15.465s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.ps1'
+[15.545s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.sh'
+[15.551s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/worren_hu_ws/install/_local_setup_util_sh.py'
+[15.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.sh'
+[15.643s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.bash'
+[15.648s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.bash'
+[15.728s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.zsh'
+[15.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.zsh'

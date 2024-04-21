@@ -1,0 +1,28 @@
+[16.385s] Invoking command in '/home/burger/worren_hu_ws/src/py_pubsub': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[19.106s] running egg_info
+[19.271s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[19.275s] running build
+[19.276s] running build_py
+[19.714s] copying py_pubsub/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.791s] copying py_pubsub/view_image_raw.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.799s] copying py_pubsub/my_node.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.814s] copying py_pubsub/__init__.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.814s] copying py_pubsub/find_object.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.819s] copying py_pubsub/find_object2.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.824s] copying py_pubsub/view_camera.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+[19.829s] running install
+[19.835s] running install_lib
+[19.878s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+[19.880s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/view_image_raw.py to view_image_raw.cpython-310.pyc
+[19.898s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/my_node.py to my_node.cpython-310.pyc
+[19.900s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[19.913s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/find_object.py to find_object.cpython-310.pyc
+[19.915s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/find_object2.py to find_object2.cpython-310.pyc
+[19.920s] byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/view_camera.py to view_camera.cpython-310.pyc
+[19.923s] running install_data
+[19.961s] running install_egg_info
+[19.969s] removing '/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[19.972s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[19.983s] running install_scripts
+[20.315s] writing list of installed files to '/home/burger/worren_hu_ws/build/py_pubsub/install.log'
+[21.297s] Invoked command in '/home/burger/worren_hu_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed

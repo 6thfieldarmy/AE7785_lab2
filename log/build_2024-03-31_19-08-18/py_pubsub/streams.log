@@ -1,0 +1,14 @@
+[11.971s] Invoking command in '/home/burger/worren_hu_ws/src/py_pubsub': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[14.927s] running egg_info
+[14.983s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[14.984s] running build
+[14.985s] running build_py
+[14.989s] running install
+[15.003s] running install_lib
+[15.022s] running install_data
+[15.026s] running install_egg_info
+[15.031s] removing '/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+[15.034s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[15.045s] running install_scripts
+[15.163s] writing list of installed files to '/home/burger/worren_hu_ws/build/py_pubsub/install.log'
+[15.606s] Invoked command in '/home/burger/worren_hu_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed

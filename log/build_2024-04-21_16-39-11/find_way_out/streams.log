@@ -1,0 +1,7 @@
+[4.582s] Invoking command in '/home/burger/worren_hu_ws/build/find_way_out': PYTHONPATH=/home/burger/worren_hu_ws/build/find_way_out/prefix_override:/home/burger/worren_hu_ws/install/find_way_out/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/burger/worren_hu_ws/build/find_way_out/build --no-deps install_data
+[6.002s] running develop
+[6.909s] running egg_info
+[6.924s] writing manifest file 'find_way_out.egg-info/SOURCES.txt'
+[6.932s] running build_ext
+[6.940s] running install_data
+[7.114s] Invoked command in '/home/burger/worren_hu_ws/build/find_way_out' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/find_way_out/prefix_override:/home/burger/worren_hu_ws/install/find_way_out/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/burger/worren_hu_ws/build/find_way_out/build --no-deps install_data

@@ -1,0 +1,12 @@
+running develop
+running egg_info
+creating find_way_out.egg-info
+writing manifest file 'find_way_out.egg-info/SOURCES.txt'
+writing manifest file 'find_way_out.egg-info/SOURCES.txt'
+running build_ext
+running install_data
+creating /home/burger/worren_hu_ws/install/find_way_out/share/ament_index
+creating /home/burger/worren_hu_ws/install/find_way_out/share/ament_index/resource_index
+creating /home/burger/worren_hu_ws/install/find_way_out/share/ament_index/resource_index/packages
+copying resource/find_way_out -> /home/burger/worren_hu_ws/install/find_way_out/share/ament_index/resource_index/packages
+copying package.xml -> /home/burger/worren_hu_ws/install/find_way_out/share/find_way_out

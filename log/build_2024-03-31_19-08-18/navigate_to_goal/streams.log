@@ -1,0 +1,14 @@
+[12.982s] Invoking command in '/home/burger/worren_hu_ws/src/navigate_to_goal': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed
+[15.822s] running egg_info
+[15.843s] writing manifest file '../../build/navigate_to_goal/navigate_to_goal.egg-info/SOURCES.txt'
+[15.844s] running build
+[15.844s] running build_py
+[15.847s] running install
+[15.851s] running install_lib
+[15.859s] running install_data
+[15.869s] running install_egg_info
+[15.878s] removing '/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[15.879s] Copying ../../build/navigate_to_goal/navigate_to_goal.egg-info to /home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages/navigate_to_goal-0.0.0-py3.10.egg-info
+[15.887s] running install_scripts
+[15.995s] writing list of installed files to '/home/burger/worren_hu_ws/build/navigate_to_goal/install.log'
+[16.621s] Invoked command in '/home/burger/worren_hu_ws/src/navigate_to_goal' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed

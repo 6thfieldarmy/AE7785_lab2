@@ -1,0 +1,280 @@
+[5.421s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[5.421s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa99239d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa9899240>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa9899240>>)
+[5.662s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[5.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[5.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[5.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[5.663s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[5.664s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[5.664s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/burger/worren_hu_ws'
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[5.665s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[5.666s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[5.667s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[5.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[5.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[5.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[5.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[5.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[5.742s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[5.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[5.743s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[5.743s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[5.744s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[5.744s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[5.746s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[5.746s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[5.746s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[5.747s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[5.747s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[5.747s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[5.748s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[5.749s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[5.749s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[5.749s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[5.749s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[5.750s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[5.750s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['ignore', 'ignore_ament_install']
+[5.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'ignore'
+[5.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'ignore_ament_install'
+[5.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['colcon_pkg']
+[5.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'colcon_pkg'
+[5.751s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['colcon_meta']
+[5.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'colcon_meta'
+[5.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extensions ['ros']
+[5.752s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_objects) by extension 'ros'
+[5.764s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_objects' with type 'ros.ament_python' and name 'follow_objects'
+[5.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['ignore', 'ignore_ament_install']
+[5.765s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'ignore'
+[5.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'ignore_ament_install'
+[5.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['colcon_pkg']
+[5.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'colcon_pkg'
+[5.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['colcon_meta']
+[5.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'colcon_meta'
+[5.766s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extensions ['ros']
+[5.767s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigate_to_goal) by extension 'ros'
+[5.770s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigate_to_goal' with type 'ros.ament_python' and name 'navigate_to_goal'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore'
+[5.771s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ignore_ament_install'
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_pkg']
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_pkg'
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['colcon_meta']
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'colcon_meta'
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extensions ['ros']
+[5.772s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_pubsub) by extension 'ros'
+[5.775s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_pubsub' with type 'ros.ament_python' and name 'py_pubsub'
+[5.776s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['ignore', 'ignore_ament_install']
+[5.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'ignore'
+[5.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'ignore_ament_install'
+[5.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['colcon_pkg']
+[5.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'colcon_pkg'
+[5.777s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['colcon_meta']
+[5.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'colcon_meta'
+[5.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extensions ['ros']
+[5.778s] Level 1:colcon.colcon_core.package_identification:_identify(src/teamwh_object_follower) by extension 'ros'
+[5.782s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teamwh_object_follower' with type 'ros.ament_python' and name 'teamwh_object_follower'
+[5.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[5.782s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[5.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[5.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[5.783s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[6.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[6.246s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[6.408s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/burger/worren_hu_ws/install
+[6.476s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/burger/dontTouch_ws/install
+[6.553s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 244 installed packages in /opt/ros/humble
+[6.558s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[6.985s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'cmake_args' from command line to 'None'
+[6.985s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'cmake_target' from command line to 'None'
+[6.985s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[6.986s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'cmake_clean_cache' from command line to 'False'
+[6.986s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'cmake_clean_first' from command line to 'False'
+[6.986s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'cmake_force_configure' from command line to 'False'
+[6.986s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'ament_cmake_args' from command line to 'None'
+[6.986s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'catkin_cmake_args' from command line to 'None'
+[6.986s] Level 5:colcon.colcon_core.verb:set package 'follow_objects' build argument 'catkin_skip_building_tests' from command line to 'False'
+[6.986s] DEBUG:colcon.colcon_core.verb:Building package 'follow_objects' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/worren_hu_ws/build/follow_objects', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/worren_hu_ws/install/follow_objects', 'merge_install': False, 'path': '/home/burger/worren_hu_ws/src/follow_objects', 'symlink_install': False, 'test_result_base': None}
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'cmake_args' from command line to 'None'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'cmake_target' from command line to 'None'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'cmake_clean_first' from command line to 'False'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'cmake_force_configure' from command line to 'False'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'ament_cmake_args' from command line to 'None'
+[7.053s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[7.054s] Level 5:colcon.colcon_core.verb:set package 'navigate_to_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.054s] DEBUG:colcon.colcon_core.verb:Building package 'navigate_to_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/worren_hu_ws/build/navigate_to_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/worren_hu_ws/install/navigate_to_goal', 'merge_install': False, 'path': '/home/burger/worren_hu_ws/src/navigate_to_goal', 'symlink_install': False, 'test_result_base': None}
+[7.127s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_args' from command line to 'None'
+[7.127s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target' from command line to 'None'
+[7.127s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.127s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[7.128s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[7.128s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[7.128s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[7.128s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[7.128s] Level 5:colcon.colcon_core.verb:set package 'py_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.128s] DEBUG:colcon.colcon_core.verb:Building package 'py_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/worren_hu_ws/build/py_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/worren_hu_ws/install/py_pubsub', 'merge_install': False, 'path': '/home/burger/worren_hu_ws/src/py_pubsub', 'symlink_install': False, 'test_result_base': None}
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'cmake_args' from command line to 'None'
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'cmake_target' from command line to 'None'
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'cmake_clean_first' from command line to 'False'
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'cmake_force_configure' from command line to 'False'
+[7.196s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'ament_cmake_args' from command line to 'None'
+[7.197s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[7.197s] Level 5:colcon.colcon_core.verb:set package 'teamwh_object_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[7.197s] DEBUG:colcon.colcon_core.verb:Building package 'teamwh_object_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/worren_hu_ws/build/teamwh_object_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/worren_hu_ws/install/teamwh_object_follower', 'merge_install': False, 'path': '/home/burger/worren_hu_ws/src/teamwh_object_follower', 'symlink_install': False, 'test_result_base': None}
+[7.264s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[7.339s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[7.340s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/worren_hu_ws/src/follow_objects' with build type 'ament_python'
+[7.341s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_objects', 'ament_prefix_path')
+[7.425s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[7.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/hook/ament_prefix_path.ps1'
+[7.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/hook/ament_prefix_path.dsv'
+[7.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/hook/ament_prefix_path.sh'
+[7.509s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.856s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/worren_hu_ws/src/navigate_to_goal' with build type 'ament_python'
+[7.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigate_to_goal', 'ament_prefix_path')
+[7.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/hook/ament_prefix_path.ps1'
+[7.930s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/hook/ament_prefix_path.dsv'
+[7.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/hook/ament_prefix_path.sh'
+[8.009s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.307s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/worren_hu_ws/src/py_pubsub' with build type 'ament_python'
+[8.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'ament_prefix_path')
+[8.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.ps1'
+[8.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.dsv'
+[8.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/hook/ament_prefix_path.sh'
+[8.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.460s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.762s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/worren_hu_ws/src/teamwh_object_follower' with build type 'ament_python'
+[8.763s] Level 1:colcon.colcon_core.shell:create_environment_hook('teamwh_object_follower', 'ament_prefix_path')
+[8.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/hook/ament_prefix_path.ps1'
+[8.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/hook/ament_prefix_path.dsv'
+[8.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/hook/ament_prefix_path.sh'
+[8.916s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.916s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.621s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/worren_hu_ws/src/follow_objects'
+[10.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.400s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/worren_hu_ws/src/navigate_to_goal'
+[12.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.471s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.183s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/worren_hu_ws/src/py_pubsub'
+[14.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.969s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/worren_hu_ws/src/teamwh_object_follower'
+[16.039s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.040s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[20.179s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/worren_hu_ws/src/follow_objects': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed
+[20.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/worren_hu_ws/src/py_pubsub': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[20.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/worren_hu_ws/src/teamwh_object_follower': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed
+[20.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/worren_hu_ws/src/navigate_to_goal': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed
+[23.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/worren_hu_ws/src/teamwh_object_follower' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed
+[23.571s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower' for CMake module files
+[23.576s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower' for CMake config files
+[23.590s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib'
+[23.592s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower/bin'
+[23.592s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/pkgconfig/teamwh_object_follower.pc'
+[23.594s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages'
+[23.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('teamwh_object_follower', 'pythonpath')
+[23.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/hook/pythonpath.ps1'
+[23.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/hook/pythonpath.dsv'
+[23.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/hook/pythonpath.sh'
+[23.765s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/teamwh_object_follower/bin'
+[23.765s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teamwh_object_follower)
+[23.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/package.ps1'
+[23.873s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/package.dsv'
+[23.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/package.sh'
+[23.885s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/package.bash'
+[23.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/teamwh_object_follower/share/teamwh_object_follower/package.zsh'
+[23.900s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/worren_hu_ws/install/teamwh_object_follower/share/colcon-core/packages/teamwh_object_follower)
+[23.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/worren_hu_ws/src/py_pubsub' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/py_pubsub/prefix_override:/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/burger/worren_hu_ws/build/py_pubsub/build install --record /home/burger/worren_hu_ws/build/py_pubsub/install.log --single-version-externally-managed
+[24.056s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub' for CMake module files
+[24.058s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub' for CMake config files
+[24.062s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub/lib'
+[24.062s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub/bin'
+[24.063s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub/lib/pkgconfig/py_pubsub.pc'
+[24.063s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages'
+[24.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('py_pubsub', 'pythonpath')
+[24.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.ps1'
+[24.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.dsv'
+[24.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/hook/pythonpath.sh'
+[24.145s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/py_pubsub/bin'
+[24.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py_pubsub)
+[24.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/package.ps1'
+[24.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/package.dsv'
+[24.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/package.sh'
+[24.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/package.bash'
+[24.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/py_pubsub/share/py_pubsub/package.zsh'
+[24.223s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/worren_hu_ws/install/py_pubsub/share/colcon-core/packages/py_pubsub)
+[24.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/worren_hu_ws/src/follow_objects' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/follow_objects/prefix_override:/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/follow_objects build --build-base /home/burger/worren_hu_ws/build/follow_objects/build install --record /home/burger/worren_hu_ws/build/follow_objects/install.log --single-version-externally-managed
+[24.304s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects' for CMake module files
+[24.306s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects' for CMake config files
+[24.310s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects/lib'
+[24.310s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects/bin'
+[24.310s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects/lib/pkgconfig/follow_objects.pc'
+[24.311s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects/lib/python3.10/site-packages'
+[24.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_objects', 'pythonpath')
+[24.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/hook/pythonpath.ps1'
+[24.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/hook/pythonpath.dsv'
+[24.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/hook/pythonpath.sh'
+[24.387s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/follow_objects/bin'
+[24.387s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_objects)
+[24.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/package.ps1'
+[24.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/package.dsv'
+[24.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/package.sh'
+[24.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/package.bash'
+[24.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/follow_objects/share/follow_objects/package.zsh'
+[24.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/worren_hu_ws/install/follow_objects/share/colcon-core/packages/follow_objects)
+[24.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/worren_hu_ws/src/navigate_to_goal' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/navigate_to_goal/prefix_override:/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/navigate_to_goal build --build-base /home/burger/worren_hu_ws/build/navigate_to_goal/build install --record /home/burger/worren_hu_ws/build/navigate_to_goal/install.log --single-version-externally-managed
+[24.546s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal' for CMake module files
+[24.548s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal' for CMake config files
+[24.561s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal/lib'
+[24.561s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal/bin'
+[24.561s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal/lib/pkgconfig/navigate_to_goal.pc'
+[24.562s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal/lib/python3.10/site-packages'
+[24.563s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigate_to_goal', 'pythonpath')
+[24.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/hook/pythonpath.ps1'
+[24.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/hook/pythonpath.dsv'
+[24.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/hook/pythonpath.sh'
+[24.644s] Level 1:colcon.colcon_core.environment:checking '/home/burger/worren_hu_ws/install/navigate_to_goal/bin'
+[24.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigate_to_goal)
+[24.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/package.ps1'
+[24.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/package.dsv'
+[24.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/package.sh'
+[24.719s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/package.bash'
+[24.721s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/worren_hu_ws/install/navigate_to_goal/share/navigate_to_goal/package.zsh'
+[24.722s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/worren_hu_ws/install/navigate_to_goal/share/colcon-core/packages/navigate_to_goal)
+[24.723s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.725s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.726s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[24.727s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[24.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.835s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.835s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.838s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[24.839s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.ps1'
+[24.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/worren_hu_ws/install/_local_setup_util_ps1.py'
+[24.916s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.ps1'
+[25.000s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.sh'
+[25.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/worren_hu_ws/install/_local_setup_util_sh.py'
+[25.013s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.sh'
+[25.090s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.bash'
+[25.095s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.bash'
+[25.177s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/worren_hu_ws/install/local_setup.zsh'
+[25.183s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/worren_hu_ws/install/setup.zsh'

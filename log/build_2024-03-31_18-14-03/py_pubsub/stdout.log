@@ -1,0 +1,26 @@
+running egg_info
+writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_pubsub/turn_turtlebot.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+copying py_pubsub/view_image_raw.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+copying py_pubsub/my_node.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+copying py_pubsub/__init__.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+copying py_pubsub/find_object.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+copying py_pubsub/find_object2.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+copying py_pubsub/view_camera.py -> /home/burger/worren_hu_ws/build/py_pubsub/build/lib/py_pubsub
+running install
+running install_lib
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/turn_turtlebot.py to turn_turtlebot.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/view_image_raw.py to view_image_raw.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/my_node.py to my_node.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/find_object.py to find_object.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/find_object2.py to find_object2.cpython-310.pyc
+byte-compiling /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/view_camera.py to view_camera.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/burger/worren_hu_ws/build/py_pubsub/install.log'

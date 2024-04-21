@@ -1,0 +1,14 @@
+[16.049s] Invoking command in '/home/burger/worren_hu_ws/src/teamwh_object_follower': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed
+[18.268s] running egg_info
+[18.406s] writing manifest file '../../build/teamwh_object_follower/teamwh_object_follower.egg-info/SOURCES.txt'
+[18.407s] running build
+[18.407s] running build_py
+[18.554s] running install
+[18.567s] running install_lib
+[18.593s] running install_data
+[18.604s] running install_egg_info
+[18.613s] removing '/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[18.617s] Copying ../../build/teamwh_object_follower/teamwh_object_follower.egg-info to /home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages/teamwh_object_follower-0.0.0-py3.10.egg-info
+[18.636s] running install_scripts
+[18.853s] writing list of installed files to '/home/burger/worren_hu_ws/build/teamwh_object_follower/install.log'
+[19.032s] Invoked command in '/home/burger/worren_hu_ws/src/teamwh_object_follower' returned '0': PYTHONPATH=/home/burger/worren_hu_ws/build/teamwh_object_follower/prefix_override:/home/burger/worren_hu_ws/install/teamwh_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/teamwh_object_follower build --build-base /home/burger/worren_hu_ws/build/teamwh_object_follower/build install --record /home/burger/worren_hu_ws/build/teamwh_object_follower/install.log --single-version-externally-managed

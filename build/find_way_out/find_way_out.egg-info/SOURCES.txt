@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+find_way_out/__init__.py
+find_way_out/camera_situation_perception.py
+find_way_out/lidar_situation_perception.py
+find_way_out/move.py
+find_way_out/navigate_to_goal.py
+find_way_out/preprocess.py
+find_way_out.egg-info/PKG-INFO
+find_way_out.egg-info/SOURCES.txt
+find_way_out.egg-info/dependency_links.txt
+find_way_out.egg-info/entry_points.txt
+find_way_out.egg-info/requires.txt
+find_way_out.egg-info/top_level.txt
+find_way_out.egg-info/zip-safe
+resource/find_way_out

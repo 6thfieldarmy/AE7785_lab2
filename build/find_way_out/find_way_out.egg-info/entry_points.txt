@@ -1,0 +1,5 @@
+[console_scripts]
+lidar = find_way_out.lidar_situation_perception:main
+move = find_way_out.move:main
+viewer = find_way_out.camera_situation_perception:main
+

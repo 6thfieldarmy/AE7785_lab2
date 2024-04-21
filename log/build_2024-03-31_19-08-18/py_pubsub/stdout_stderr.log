@@ -1,0 +1,12 @@
+running egg_info
+writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/burger/worren_hu_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/burger/worren_hu_ws/build/py_pubsub/install.log'
